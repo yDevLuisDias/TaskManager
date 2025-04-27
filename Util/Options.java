@@ -29,7 +29,7 @@ public class Options {
             return;
         }
 
-        System.out.println("Want form preference search ? \n Chose an option");
+        System.out.println("Want form preference search ? \n Chose an option \n");
         System.out.println("1.Search of ID \n2.Search all task saved \n3.Back");
 
         try {
