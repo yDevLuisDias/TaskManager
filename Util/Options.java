@@ -137,10 +137,7 @@ public class Options {
     }
 
     private void deleteAllTask() {
-        int i;
-        for (i = 0; i < TaskList.size(); i++) {
-            TaskList.remove(i);
-        }
+        TaskList.clear();
         System.out.println("All task delete successfully! \n");
     }
 }
